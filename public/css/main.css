@@ -73,3 +73,15 @@ body{
     color: #3765a7;
     cursor: pointer;
 }
+
+
+.aligning{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.weather-img{
+    width: 25%;
+}
