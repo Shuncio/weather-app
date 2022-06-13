@@ -85,6 +85,10 @@ body{
     text-align: center;
 }
 
+.aligning-top{
+    margin: 0;
+}
+
 .weather-img{
     width: 25%;
     margin: auto;
