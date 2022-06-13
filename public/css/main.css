@@ -75,13 +75,17 @@ body{
 }
 
 
+/*
+ * info about atmospheric conditions
+ */
 .aligning{
     font-size: 20px;
     font-weight: 700;
-    margin: 0;
+    margin: 10px;
     text-align: center;
 }
 
 .weather-img{
     width: 25%;
+    margin: auto;
 }
