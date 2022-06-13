@@ -1,5 +1,5 @@
 # weather-app
-A web app that shows the actual atmospheric conditions in the given locality
+A web app that shows the actual atmospheric conditions in the given locality; contains both frontend and backend sides!
 
 To build this app, you have to install the latest Node.js version!
 
