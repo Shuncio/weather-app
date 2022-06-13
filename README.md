@@ -1,11 +1,11 @@
 # weather-app
 A web app that shows the actual atmospheric conditions in the given locality; contains both frontend and backend sides!
 
-To build this app, you have to install the latest Node.js version!
+To build this app, install the latest Node.js version!
 
 ``` How to build this locally: ```
 
-You have to open terminal in the directory where the public folder is located and install the necessary dependencies:
+Open the terminal in the directory where the ```public``` folder is located and install the necessary dependencies:
 ```javascript
 npm install express
 ```
@@ -18,7 +18,7 @@ node public/app.js
 ```
 
 ``` javascript
-and then, in the browser, type: localhost:3000 
+and then, in the browser, type: "localhost:3000" 
 ```
 
 
