@@ -76,9 +76,15 @@ app.post("/", function(req, res) {
             const iconUrl = `http://openweathermap.org/img/wn/${iconName}@2x.png`;
  
                 // this will be displayed on the site after the user'll enter the locality name
-            res.write(`<p class='redd'>The temperature in ${locationName} equals ${temp}C degrees<p>`);
-            res.write(`<h1>The condition of weather is: ${weatherStatusDescription}</h1>`);
-            res.write(`<img src=${iconUrl}>`);
+            // this will be displayed on the site after the user'll enter the locality name
+            res.write(`<link href="css/main.css" rel="stylesheet" type="text/css"></link>`);
+            res.write(`
+                <div class="main-flex-container">
+                    <p class='aligning'>The temperature in ${locationName} equals ${temp} degrees<p>
+                    <p class='aligning'>The condition of weather is: ${weatherStatusDescription}</p>
+                    <img class='weather-img' src=${iconUrl}>
+                </div>
+            `);
             res.end();
 
             console.log(`The temperature in ${query} is ${temp} degrees and the weather conditions are ${weatherStatusDescription}`);
