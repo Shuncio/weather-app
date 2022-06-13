@@ -76,7 +76,6 @@ app.post("/", function(req, res) {
             const iconUrl = `http://openweathermap.org/img/wn/${iconName}@2x.png`;
  
                 // this will be displayed on the site after the user'll enter the locality name
-            // this will be displayed on the site after the user'll enter the locality name
             res.write(`<link href="css/main.css" rel="stylesheet" type="text/css"></link>`);
             res.write(`
                 <div class="main-flex-container">
