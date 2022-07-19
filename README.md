@@ -12,7 +12,7 @@ npm install express
 ```javascript
 npm install body-parser
 ```
-And in order to build and run the app, just type in the terminal:
+And in order to run the app, just type in the terminal:
 ```javascript
 node public/app.js
 ```
